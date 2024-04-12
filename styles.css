@@ -1,0 +1,183 @@
+body{
+  font-family: Montserrat;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff; /* color is white */
+}
+
+.container-fluid{
+  padding: 3% 12% 6%;
+}
+
+h1{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 16px;
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 0 0;
+}
+
+/* Title Image */
+
+.image{
+  position: relative;
+}
+
+
+.title-image{
+  width: 60%;
+  transform: rotate(22deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+h3{
+  font-family: "Montserrat-bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%; /*Removed the padding from testimonial id and added here as the padding is also effecting the the arrow buttons*/
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 4%;
+}
+
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+
+
+#pricing{
+  text-align: center;
+  margin: 5%;
+}
+
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Footer */
+
+.bottom{
+  text-align: center;
+}
+
+.social-icon{
+margin: 20px 10px;
+}
+
+
+
+@media(max-width:1000px)
+{
+
+.title{
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.title-image{
+  transform: none;
+  display: block;
+  margin: 40px auto 0;
+  position: static;
+}
+
+.navbar-nav{
+  text-align: right;
+}
+}
