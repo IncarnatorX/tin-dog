@@ -1,1 +1,1 @@
-# tin-dog
+# tin-dog website includes Bootstrap technology
